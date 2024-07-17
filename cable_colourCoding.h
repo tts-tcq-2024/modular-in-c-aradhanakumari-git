@@ -31,3 +31,4 @@ void testNumberToPair(int pairNumber,
     enum MinorColor expectedMinor);
 
 int GetPairNumberFromColor(const ColorPair* colorPair);
+ColorPair GetColorFromPairNumber(int pairNumber);
