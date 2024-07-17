@@ -29,3 +29,5 @@ void testPairToNumber(
 void testNumberToPair(int pairNumber,
     enum MajorColor expectedMajor,
     enum MinorColor expectedMinor);
+
+int GetPairNumberFromColor(const ColorPair* colorPair);
