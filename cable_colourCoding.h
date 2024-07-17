@@ -32,3 +32,4 @@ void testNumberToPair(int pairNumber,
 
 int GetPairNumberFromColor(const ColorPair* colorPair);
 ColorPair GetColorFromPairNumber(int pairNumber);
+void ColorPairToString(const ColorPair* colorPair, char* buffer);
