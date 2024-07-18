@@ -15,6 +15,8 @@ void ColorPairToString(const ColorPair* colorPair, char* buffer) {
         MajorColorNames[colorPair->majorColor],
         MinorColorNames[colorPair->minorColor]);
 }
+const int MAX_COLORPAIR_NAME_CHARS = 16;
+
 
 ColorPair GetColorFromPairNumber(int pairNumber) {
     ColorPair colorPair;
